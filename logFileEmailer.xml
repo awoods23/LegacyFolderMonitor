@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<logFileEmailerConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <emailSubject>%FILENAME%</emailSubject>
+  <monitorFolder>\\lqaudio3\CapitalProd\MusicLogs\CapitalAnthems</monitorFolder>
+  <fileMatch>Capital Anthems Music Log</fileMatch>
+  <fileExt>pdf</fileExt>
+  <logLevel>ERROR</logLevel>
+  <smtpServer>smtpinternal.thisisglobal.com</smtpServer>
+  <emailTo>CapitalAnthemsMusicLog@global.com</emailTo>
+  <emailFrom>log-emailer@global.com</emailFrom>
+  <appName>Music Logs</appName>
+  <smtpPort>25</smtpPort>
+  <minAge>1</minAge>
+  <checkInterval>2</checkInterval>
+  <emailMessage><![CDATA[<h1>New Music Log For Capital Anthems</h1>
+<p>Hi, there's a new music log available.</p>
+
+<p>To print the log, double click on the attachment to open it in a web browser, then select File &amp; Print.</p>]]></emailMessage>
+</logFileEmailerConfig>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<logFileEmailerConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <emailSubject>%FILENAME%</emailSubject>
+  <monitorFolder>\\lqaudio3\SmoothProd\Music Logs</monitorFolder>
+  <fileMatch>Smooth Network Music Log</fileMatch>
+  <fileExt>pdf</fileExt>
+  <logLevel>ERROR</logLevel>
+  <smtpServer>smtpinternal.thisisglobal.com</smtpServer>
+  <emailTo>smoothnetwork-allpresenters@thisisglobal.com</emailTo>
+  <emailFrom>log-emailer@smoothradio.com</emailFrom>
+  <appName>Smooth Network Music Logs</appName>
+  <smtpPort>25</smtpPort>
+  <minAge>1</minAge>
+  <checkInterval>2</checkInterval>
+  <emailMessage><![CDATA[<p>Hello!</p>
+<p>Here&#39;s a new Smooth Music Log.</p>
+<p>To print the log, double click on the attachment to open it in a web browser, then select File & Print.</p>
+<ul>
+<li>Overnights: 1-4</li>
+<li>Early Breakfast: 5-6</li>
+<li>Breakfast: 7-10</li>
+<li>Mid Mornings: 11-13</li>
+<li>Afternoons: 14-16</li>
+<li>Drive: 17-19</li>
+<li>Sanctuary: 20-22</li>
+<li>Late Show: 23-24</li>
+
+</ul>
+<p>If you spot any problems with this music log, please contact Chris Chilvers.</p>
+<p>Please note - receiving this email doesn't mean the log has been imported into Genesys.</p>
+<p>To do that, check <a href="http://genesys.thisisglobal.com/logchecksmooth.asp">here</a></p>]]></emailMessage>
+</logFileEmailerConfig>
